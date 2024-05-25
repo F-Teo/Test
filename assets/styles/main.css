@@ -1,0 +1,67 @@
+body {
+    background-color: gainsboro;
+}
+.wrapper {
+    width: 1440px;
+    margin: 0 auto;
+}
+
+.top-head {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: blueviolet;
+}
+
+.top-head span {
+    font-size: 26px;
+    color: white;
+}
+
+.top-head a {
+    color: white;
+}
+.navigation-list{
+    display: flex;
+    justify-content: left;
+    background-color: cornflowerblue;
+    padding: 14px 0 20px 20px;
+}
+
+.navigation-list li {
+    padding-right: 20px;
+}
+
+.navigation-list li>a{
+    font-size: 16px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    color: white;
+}
+
+.navigation-list li:nth-child(5) {
+    padding-right: 780px;
+}
+
+.conteiner-filter-product {
+    display: flex;
+    justify-content: left;
+    padding: 20px 20px 20px 20px;
+    background-color: azure;
+}
+
+.conteiner-filter-product form{
+    margin-right: 100px;
+}
+
+/* .container-product-card {
+}
+.product-card {
+}
+.image-product-card {
+}
+.old-price {
+}
+.price {
+} */
